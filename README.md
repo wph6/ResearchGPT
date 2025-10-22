@@ -33,7 +33,44 @@ The dataset organizes each Q&A pair into one of eight topic classes, reflecting 
 
 ## ⚙️Training
 
+We fine-tune the Qwen2.5-7B-Instruct model on the CS-50k dataset using **Group Relative Policy Optimization (GRPO)**. The training leverages the [VERL](https://github.com/volcengine/verl) framework for efficient reinforcement learning.
+
+
+**Run Training:**
+```bash
+bash scripts/verl/run_qwen2_5-7b_research50k.sh
+````
+
 ## 📈Evaluation
+
+We evaluate models on **CS-4k**, a high-quality benchmark subset designed to assess end-to-end research-assistant capabilities across eight scientific reasoning categories. The evaluation uses an **LLM-as-a-judge** approach with a detailed 0-10 scoring rubric to measure semantic and technical alignment with reference answers.
+
+**Evaluation Metrics:**
+- **Overall Score**: Average score across all CS-4k questions (scaled to 0-100)
+- **Category-wise Performance**: Breakdown across eight topic categories:
+  - Research domain
+  - Previous methods
+  - Existing challenges
+  - Motivation
+  - Findings/Assumptions
+  - Methods
+  - Experimental settings
+  - Experimental results
+
+**Run Evaluation:**
+```bash
+opencompass scripts/eval/api_gpt5_research4k_llm_judge.py
+````
+
+## 🤝 Acknowledgements
+
+This project builds on:
+
+* [**VERL**](https://github.com/volcengine/verl) — A flexible, efficient and production-ready RL training library for large language models (LLMs).  
+* [**OpenCompass**](https://github.com/open-compass/opencompass) — A comprehensive open evaluation platform for LLMs.
+* [**LLaMA-Factory**](https://github.com/hiyouga/LLaMA-Factory) — An efficient and unified fine-tuning framework for LLMs.
+
+
 
 ## 📄 License
 
