@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- <a href='https://arxiv.org/pdf/2510.19266'><img src='https://img.shields.io/badge/arXiv-2510.19266-%23B31B1B?logo=arxiv'></a> -->
-<a href='https://huggingface.co/datasets/wph6/CS-54k'><img src='https://img.shields.io/badge/Hugging%20Face-Models-blue?style=flat&logo=huggingface&logoColor=%23FFD21E'></a>
+<a href='https://huggingface.co/datasets/wph6/CS-54k'><img src='https://img.shields.io/badge/Hugging%20Face-Datasets-blue?style=flat&logo=huggingface&logoColor=%23FFD21E'></a>
 <a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-green.svg'></a>
 </div>
 
