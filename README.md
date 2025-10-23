@@ -1,10 +1,16 @@
 # 🧠 ResearchGPT: Benchmarking and Training LLMs for End-to-End Computer Science Research Workflows
 
+<div align="center">
+
+<!-- <a href='https://arxiv.org/pdf/2510.19266'><img src='https://img.shields.io/badge/arXiv-2510.19266-%23B31B1B?logo=arxiv'></a> -->
+<a href='https://huggingface.co/datasets/wph6/CS-54k'><img src='https://img.shields.io/badge/Hugging%20Face-Models-blue?style=flat&logo=huggingface&logoColor=%23FFD21E'></a>
+<a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-green.svg'></a>
+</div>
 
 ## ✨ Overview
 ![CS-4k Overview](figures/intro.png)
 
-As large language models (LLMs) advance, the ultimate vision for their role in science is emerging: we could build an AI collaborator to effectively assist human beings throughout the entire scientific research process. We refer to this envisioned system as \emph{ResearchGPT}.
+As large language models (LLMs) advance, the ultimate vision for their role in science is emerging: we could build an AI collaborator to effectively assist human beings throughout the entire scientific research process. We refer to this envisioned system as **ResearchGPT**.
 To move toward this goal, we present CS-54k, a high-quality corpus of computer science Q&A pairs derived from 14k CC-licensed papers through a scalable, paper-grounded pipeline combining RAG and multi-stage quality control.
 
 From CS-54k, we derive two subsets:
