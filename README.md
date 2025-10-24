@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<!-- <a href='https://arxiv.org/pdf/2510.19266'><img src='https://img.shields.io/badge/arXiv-2510.19266-%23B31B1B?logo=arxiv'></a> -->
+<a href='https://arxiv.org/abs/2510.20279'><img src='https://img.shields.io/badge/arXiv-2510.20279-%23B31B1B?logo=arxiv'></a>
 <a href='https://huggingface.co/datasets/wph6/CS-54k'><img src='https://img.shields.io/badge/Hugging%20Face-Datasets-blue?style=flat&logo=huggingface&logoColor=%23FFD21E'></a>
 <a href='LICENSE'><img src='https://img.shields.io/badge/License-MIT-green.svg'></a>
 </div>
@@ -84,4 +84,14 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 📚 Citation
 If you find ResearchGPT useful, please cite our paper:
-
+```
+@misc{wang2025researchgptbenchmarkingtrainingllms,
+      title={ResearchGPT: Benchmarking and Training LLMs for End-to-End Computer Science Research Workflows}, 
+      author={Penghao Wang and Yuhao Zhou and Mengxuan Wu and Ziheng Qin and Bangyuan Zhu and Shengbin Huang and Xuanlei Zhao and Panpan Zhang and Xiaojiang Peng and Yuzhang Shang and Jianfei Yang and Zheng Zhu and Tianlong Chen and Zhangyang Wang and Kai Wang},
+      year={2025},
+      eprint={2510.20279},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2510.20279}, 
+}
+```
